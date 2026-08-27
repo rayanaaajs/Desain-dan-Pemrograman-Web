@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <p>
+        <label for="judul">Judul</label><br />
+        <input type="text" name="judul" id="judul" required />
+      </p>
+
+      <p>
+        <label for="pengarang">Pengarang</label><br />
+        <input type="text" name="Pengarang" id="Pengarang" required />
+      </p>
+
+      <p>
+        <label for="tahun">Tahun Terbit</label><br />
+        <input
+          type="number"
+          name="tahun"
+          id="tahun"
+          min="1900"
+          max="2026"
+          required
+        />
+      </p>
+
+      <p>
+        <label for="isbn">ISBN</label><br />
+        <input type="text" name="isbn" id="isbn" required />
+      </p>
+
+       <p>
+        <label for="stok">stok</label><br />
+        <input
+          type="number"
+          name="stok"
+          id="stok"
+          min="0"
+         
+          required
+        />
+      </p>
+
+      <p>
+        <label for="kategori">Kategori</label><br>
+        <select name="kategori" id="kategori">
+            <option value="fiksi">fiksi</option>
+            <option value="non-fiksi">non fiksi</option>
+            <option value="referensi"> referensi</option>
+        </select>
+      </p>
+
+      <p>
+        <button type="submit">Simpan</button>
+      </p>
+
+
+    </form>
+  </body>
+</html>
