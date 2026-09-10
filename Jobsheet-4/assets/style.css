@@ -198,6 +198,18 @@ footer {
   overflow-x: auto;
 }
 
+/* -- login page -- */
+
+.box-login {
+  display: flex;
+  justify-content: center;
+}
+
+.card-login {
+  width: 100%;
+  max-width: 28rem;
+}
+
 /* === responsive break point === */
 
 @media (max-width: 900px) {
